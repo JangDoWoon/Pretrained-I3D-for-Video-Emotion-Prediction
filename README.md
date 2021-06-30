@@ -6,6 +6,7 @@
   * In this research, RGB channel and 32 frames for 30sec video are used for 3D convolutional network.
 ![image](https://user-images.githubusercontent.com/67357059/123912142-9fe8aa80-d9b7-11eb-8ef5-25cb63009e8b.png)
 ## I3D Network
+ * I use I3D Network pretrained kinetic dataset.
 ### Inflating
  * The method of replacing N x N filters with N x N x N filters.
  * In detail, increase the dimension of the filter and divide the weight by 1/N.
@@ -17,7 +18,5 @@
 
 ## Reference
 1. Yagya Raj Pandeya (2020) Deep learning based late fusion of multimodal information for emotion classification of music video. Springer 
-2. Bahuleyan H (2018) Music genre classification using machine learning techniques.
-3. Choi K, Fazekas G, Sandler M and Cho K (2017) Transfer learning for music classification and regression tasks. International Society for Music Information Retrieval Conference
-4. Dai W, Dai C, Qu S, Li J, and Das S (2016) Very deep convolutional neural networks for raw waveforms.
-5. Grekow J (2018) From content-based music emotion recognition to emotion maps of musical pieces. Springer
+2. Quo vadis, action recognition? A new model and the kinetics dataset.
+3. Fan Y, Lu X, Li D, Liu Y (2016) Video-based emotion recognition using CNN-RNN and C3D hybridnetworks. International conference on multimodal interfaces. Tokyo, Japan
